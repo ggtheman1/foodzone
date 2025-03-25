@@ -15,6 +15,7 @@ items,
         url: string,
         title: string,
         buttonCaption: string,
+        isPublished: boolean
     }[]
 }){
     const plugin=useRef(
