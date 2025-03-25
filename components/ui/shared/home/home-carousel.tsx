@@ -11,10 +11,10 @@ export default function HomeCarousel({
 items,
 }:{
     items:{
-        image: string,
-        url: string,
         title: string,
         buttonCaption: string,
+        image: string,
+        url: string,
         isPublished: boolean
     }[]
 }){
@@ -23,7 +23,7 @@ items,
     )
     return(
     <Carousel
-    dir="rtl"
+    dir="ltr"
     plugins={[plugin.current]}
     className="w-full mx-auto"
     onMouseEnter={plugin.current.stop}
