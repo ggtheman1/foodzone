@@ -1,3 +1,4 @@
+
 const data={
      headerMenus: [
     {
@@ -33,6 +34,44 @@ const data={
       href: '/page/help',
     },
   ],
+carousels:[
+  {
+    title:"Most Popular Burger Here",
+    ButtonCaption:'Order Now',
+    image:'/images/slider 1.png',
+    url:'/search?category=Burger',
+    isPublished:true,
+  },
+  {
+    title:"Most Popular Pizza Here",
+    ButtonCaption:'Order Now',
+    image:'/images/images.png',
+    url:'/search?category=Pizza',
+    isPublished:true,
+  },
+  {
+    title:"Most Popular Chicken Here",
+    ButtonCaption:'Order Now',
+    image:'/images/chiken.png',
+    url:'/search?category=Chicken',
+    isPublished:true,
+  },
+  {
+    title:"Most Popular Pasta Here",
+    ButtonCaption:'Order Now',
+    image:'/images/pasta.png',
+    url:'/search?category=Pasta',
+    isPublished:true,
+  },
+  {
+    title:"Most Popular Tibs Here",
+    ButtonCaption:'Order Now',
+    image:'/images/tibs.png',
+    url:'/search?category=Tibs',
+    isPublished:true,
+  }
 
+]
 }
    export default data;
+   
