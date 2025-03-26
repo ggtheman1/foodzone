@@ -31,7 +31,7 @@ items,
         <CarouselContent>
             {items.map((item) =>(
                <CarouselItem key={item.title}>
-                   <div className="flex aspect[16/16] items-center justify-center p-6 relative -m-1">
+                   <div className="flex aspect-[16/6] items-center justify-center p-6 relative -m-1">
                        <Image
                            src={item.image}
                            alt={item.title}
@@ -40,10 +40,10 @@ items,
                            className="object-cover"
                        />
                        <div className="absolute w-1/3 left-16 md:left-32 top-1/2 transform -translate-y-1/2">
-                             <h2 className={cn('text-xl md:text-6xl font-bold mb-4 text-primary')}>
+                             <h2 className={cn('text-xl md:text-6xl font-bold mb-4 text-white')}>
                                 {item.title}
                              </h2>
-                             <Button className="hidden md:block">
+                             <Button className="hidden md:block cursor-pointer">
                                 {item.buttonCaption}
                              </Button>
                        </div>
@@ -51,8 +51,9 @@ items,
                </CarouselItem>
             ))}
         </CarouselContent>
-        <CarouselNext className="left-0 md:left-12"/>
-        <CarouselPrevious className="right-0 md:right-12"/>
+         <CarouselPrevious className="left-0 md:left-12"/>
+        <CarouselNext className="right-0 md:right-12"/>
+       
     </Carousel>
 )
 } 

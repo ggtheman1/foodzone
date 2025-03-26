@@ -45,14 +45,14 @@ carousels:[
   {
     title:"Most Popular Pizza Here",
     buttonCaption:'Order Now',
-    image:'/images/images.png',
+    image:'/images/pizza.jpeg',
     url:'/search?category=Pizza',
     isPublished:true,
   },
   {
     title:"Most Popular Chicken Here",
     buttonCaption:'Order Now',
-    image:'/images/chiken.png',
+    image:'/images/chicken.jpeg',
     url:'/search?category=Chicken',
     isPublished:true,
   },
@@ -66,7 +66,7 @@ carousels:[
   {
     title:"Most Popular Tibs Here",
     buttonCaption:'Order Now',
-    image:'/images/tibs.png',
+    image:'/images/tibs.jpg',
     url:'/search?category=Tibs',
     isPublished:true,
   }
